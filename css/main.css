@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+div,p,body,header,footer,section,article,nav, #submit
+{ 
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	color: #2c2569;	
+}	
+
+a
+{
+	text-decoration: none;
+}
+li
+{
+	display: inline;
+	text-decoration: none;
+}
+
+body 
+{
+	background-color: whitesmoke;
+}
+
+
+#siteContainer /*not including footer*/
+{
+	margin: 0 auto;
+	width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #ffffff
+}
+
+.hidden
+{
+	display: none;
+}
+
+
+
+
+/*CSS Sorted by Top-Bottom order from site from here*/
+
+
+
+
+/**********HEADER**********/
+#topBar
+{
+	background-color: #F68C40;
+	width: 1040px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	background-color: #ffffff;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo
+{
+	align-self: center;
+}
+
+#mainNav
+{
+	align-self: center;
+	display: flex;
+	display: inline-block;
+	justify-content: flex-end;
+}
+
+
+#mainNav ul a
+{
+	color: #2c2569;
+	text-decoration: none;
+}
+
+#mainNav a:hover
+{
+	color: #f03c97;
+}
+
+#mainNav span
+{
+	padding: 7px;
+	border: 3px #2c2569 solid;
+	border-radius: 5px;
+
+}
+
+#mainHeader div
+{
+	display: flex;
+	align-self: center;
+	margin: 20px;
+}
+
+.search
+{
+	flex-direction: column;
+
+}
+#searchBox
+{
+	 height: 20px;
+	 align-self: flex-end;
+	 display: inline;
+	 
+}
+
+#search
+{
+	height: 20px;
+	align-self: flex-end;
+}
+/*************END OF HEADER************/
+
+
+/***********CONTENT************/
+
+
+#contentArea p
+{
+	font-family: verdana;
+}
+
+
+#headerImage
+{
+	justify-content: center;
+	align-self: center;
+}
+
+.services
+{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+.services p
+{
+	line-height: 18px;
+	font-size: 12px;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.option
+{
+	margin-top: 20px;
+}
+
+.option:hover
+{
+	box-sizing: border-box;
+	border: 2px #2c2569 solid;
+}
+
+#gamesInfoContainer
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	align-items: center;
+}
+
+
+#gamesH1
+{
+	color: #2c2569;
+	font-size: 36px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#gamesH2
+{
+	font-size: 30px;
+	color: #f68c40;
+}
+
+#gamesInfo p
+{
+	color: #2c2569;
+}
+
+#gamesInfo a p
+{
+	color: #ffffff;
+	background-color: cyan;
+	padding: 10px;
+	font-size: 30px;
+	font-family: 'Press Start 2P';
+	width: 115px;
+	text-align: center;
+	margin-left: 0px;
+}
+
+#gamesInfo a p:hover
+{
+	background-color: #2c2569;
+}
+
+#gamesInfo p 
+{
+	font-size: 20px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+#gamesInfoContainer img
+{
+	margin-left: auto;
+}
+
+#formBook
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.bookInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#bookContainer p span
+{
+	color: #f68c40;
+}
+
+#bookContainer p 
+{
+	line-height: 16px;
+}
+
+#form
+{
+	width: 410px;
+
+	background-color: #f03c97;
+
+}
+
+#form h2
+{
+	color: #ffffff;
+	margin: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.inputL
+{
+	width: 380px;
+	height: 40px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.inputS
+{
+	width: 180px;
+	height: 40px;
+	display: inline;
+}
+
+.dateTime
+{
+	width: 180px;
+	height: 40px;
+	display: inline;
+	margin-left: -8px; 
+}
+
+#bookContainer
+{
+	align-self: center;
+}
+
+#inputXL
+{
+	width: 380px;
+	height: 150px;
+}
+
+#check
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#form a p
+{
+	color: #ffffff;
+	background-color: cyan;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Press Start 2P';
+	width: 180px;
+}
+
+#form a p:hover
+{
+	background-color: #2c2569;
+}
+
+#bookContainer div
+{
+	margin: 5px;
+}
+
+
+/************END OF CONTENT*************/
+
+
+/************FOOTER**************/
+
+footer
+{
+	margin: 0 auto;
+}
+
+#footer
+{
+	background-color: #ffffff;
+	margin: 0 auto;
+	height: 200px;
+	width: 1040px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url("../images/pattern.jpg");
+}
+
+#footerNav
+{
+	background-color: #ffffff;
+	height: 135px;
+	width: 500px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	margin: 20px;
+}
+
+#footerNav a
+{
+	font-size: 10px;
+	color: #2c2569;
+	text-decoration: none;
+	justify-content: flex-end;
+}
+
+#footerNav a:hover
+{
+	color: #f03c97;
+}
+
+#copyRight
+{
+	background-color: #ffffff;
+	height: 135px;
+	width: 400px;
+	margin: 20px;
+}
+
+#copyRight h5, input, p
+{
+	margin: 10px;
+
+}
+
+#copyRight p
+{
+	color: #2c2569;
+	font-size: 9px;
+}
+
+#copyRight h5
+{
+	color: #2c2569;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+#textBox
+{ 
+	padding:5px; 
+	background:#ffffff; 
+	cursor:pointer;
+}
+
+#submit
+{
+	border: none;
+	cursor:pointer;
+	background-color: #ffffff;
+	color: #F68C40;
+	font-size: 12px;
+}
+/*************END OF FOOTER************/
